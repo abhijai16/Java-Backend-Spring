@@ -1,5 +1,7 @@
 package in.example.main;
 
+//Goal - how to configure spring container with Java.
+
 import in.example.beans.Student;
 import in.example.resources.SpringConfigFile;
 import org.springframework.context.ApplicationContext;
@@ -13,6 +15,6 @@ public class Main {
         Student std = (Student) context.getBean("stdId");
 
         std.display();
-
+ 
     }
 }
