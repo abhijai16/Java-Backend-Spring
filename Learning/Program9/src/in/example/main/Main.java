@@ -1,7 +1,7 @@
 package in.example.main;
 
 // GOAL
-// Autowiring concept to inject dependency automatically.
+// Autowiring concept to inject dependency automatically  (Annotation Based).
 
 import in.example.beans.Student;
 import in.example.resources.SpringConfigFile;
