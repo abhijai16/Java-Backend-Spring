@@ -1,7 +1,8 @@
 package in.example.main;
 
 // GOAL
-// Autowiring concept to inject dependency automatically.
+// Autowiring but what if there is more than 1 bean object.  i.e UnsatisfiedDependencyInjection error.
+// Use of @Qualifier("Bean name")
 
 import in.example.beans.Student;
 import in.example.resources.SpringConfigFile;

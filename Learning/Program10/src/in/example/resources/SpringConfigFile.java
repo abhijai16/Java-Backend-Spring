@@ -13,12 +13,23 @@ import java.util.List;
 public class SpringConfigFile {
 
     @Bean
-    public Address createAddressObj(){
+    public Address createAddressObj1(){
         Address addr = new Address();
 
         addr.setPincode(829112);
         addr.setHouseNo(33);
         addr.setCity("Bokaro");
+
+        return addr;
+    }
+
+    @Bean
+    public Address createAddressObj2(){
+        Address addr = new Address();
+
+        addr.setPincode(12345);
+        addr.setHouseNo(44);
+        addr.setCity("Ranchi");
 
         return addr;
     }

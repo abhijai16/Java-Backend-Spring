@@ -1,12 +1,16 @@
 package in.example.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Student {
     private String name;
     private int rollNo;
+
     @Autowired
+    @Qualifier("createAddressObj2")
     private Address address; //no need of setter or getter.
+
     @Autowired
     private Subjects subjects; //no need of setter or getter.
 
