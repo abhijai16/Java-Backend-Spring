@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="spring-aop-7.1.0-M2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../jar/spring-aop-7.1.0-M2.jar" />
+      <root url="file://$PROJECT_DIR$/../../jar/spring-expression-7.1.0-M2.jar" />
+      <root url="file://$PROJECT_DIR$/../../jar/spring-core-7.1.0-M2.jar" />
+      <root url="file://$PROJECT_DIR$/../../jar/spring-context-7.1.0-M2.jar" />
+      <root url="file://$PROJECT_DIR$/../../jar/spring-beans-7.1.0-M2.jar" />
+      <root url="file://$PROJECT_DIR$/../../jar/commons-logging-1.4.0.jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
