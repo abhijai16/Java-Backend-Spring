@@ -1,5 +1,8 @@
 package in.example.main;
 
+// GOAL:
+// How to inject dependency using setter method in xml config.
+
 import in.example.beans.Student;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
